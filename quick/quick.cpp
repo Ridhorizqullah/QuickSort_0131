@@ -1,4 +1,4 @@
-include < iostream>
+#include < iostream>
 using namespace std;
 int arr[20];
 int cmp_count = 0; 
@@ -22,5 +22,10 @@ void input() {
 	cout << "\nenter arry element" << endl;
 	cout << "\n-----------------" << endl;
 	
+	for (int i = 0; i < n; i++)
+	{
+		cout << "<" << (i + 1) << ">";
+		cin >> arr[i];
+	}
 
 }
