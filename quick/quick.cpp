@@ -18,7 +18,9 @@ void input() {
 
 	}
 
-
+	cout << "\n-----------------" << endl;
+	cout << "\nenter arry element" << endl;
+	cout << "\n-----------------" << endl;
 	
 
 }
