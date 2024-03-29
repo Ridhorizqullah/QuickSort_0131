@@ -29,3 +29,5 @@ void input() {
 	}
 
 }
+
+void swap(int x, int y)
